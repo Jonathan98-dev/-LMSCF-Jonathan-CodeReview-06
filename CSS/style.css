@@ -3,7 +3,29 @@
   padding: 0px;
   box-sizing: border-box; }
 
-.picture {
-  height: 300px; }
+body {
+  background: url("../img/back.webp") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+header {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.transpsight {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 5px solid #FFC107;
+  font-size: 130%; }
+
+.transprest {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 5px solid #DC3545;
+  font-size: 130%; }
+
+.transpeve {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 5px solid #28A745;
+  font-size: 130%; }
 
 /*# sourceMappingURL=style.css.map */

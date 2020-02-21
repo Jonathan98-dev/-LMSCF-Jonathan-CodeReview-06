@@ -31,7 +31,7 @@ class locations
 	display()
 	{
 		document.getElementById("locationContentContainer").innerHTML += (`
-		<div class="card col-sm-5 col-md-5 col-lg-2 m-sm-2 m-lg-5 p-0">
+		<div class="card col-sm-5 col-md-5 col-lg-2 m-sm-2 m-lg-5 p-1">
 			  <div class="card-body">
 			    <h5 class="card-title bg-warning text-center">${this.name}</h5>
 			    <span class="card-text badge badge-secondary d-flex">
@@ -67,7 +67,7 @@ class restaurants extends locations
 	display()
 	{
 		document.getElementById("restaurantContentContainer").innerHTML += (`
-		<div class="card col-sm-5 col-md-5 col-lg-2 m-sm-2 m-lg-5 p-0">
+		<div class="card col-sm-5 col-md-5 col-lg-2 m-sm-2 m-lg-5 p-1">
 			  <div class="card-body">
 			    <h5 class="card-title bg-danger text-center p-1 rounded-right">${this.name}</h5>
 			    <span class="card-text badge badge-secondary d-flex">
@@ -105,7 +105,7 @@ class events extends locations
 	display()
 	{
 		document.getElementById("eventContentContainer").innerHTML += (`
-		<div class="card col-sm-5 col-md-5 col-lg-2 m-sm-2 m-lg-5 p-0">
+		<div class="card col-sm-5 col-md-5 col-lg-2 m-sm-2 m-lg-5 p-1">
 			  <div class="card-body">
 			    <h5 class="card-title bg-success text-center p-1 rounded-right">${this.name}</h5>
 			    <span class="card-text badge badge-secondary d-flex">
@@ -131,16 +131,16 @@ class events extends locations
 //Creating Objects
 
 //locations
-let charlesChurch = new locations("St. Charles Church","Vienna","1010 Vienna","Karlsplatz 1","../img/church.jfif")
-let schPark = new locations ("Schönbrunn Park","Vienna","1130 Vienna","Maxingstraße 13b","../img/schpark.jpg")
+let charlesChurch = new locations("St. Charles Church","Vienna","1010 Vienna","Karlsplatz 1","img/church.jfif")
+let schPark = new locations ("Schönbrunn Park","Vienna","1130 Vienna","Maxingstraße 13b","img/schpark.jpg")
 
 //restaurants
-let onRest = new restaurants("ON Restaurant","Vienna","1050 Vienna","Wehrgasse 8","../img/onrest.jpg","+43(1)5854900","Chinese","http://www.restaurant-on.at/")
-let bioRest = new restaurants("BioFrische","Vienna","1150 Vienna","Stutterheimstraße 6","../img/biorest.jpg","+43(1)9529215","Indian","http://biofrische.wien/")
+let onRest = new restaurants("ON Restaurant","Vienna","1050 Vienna","Wehrgasse 8","img/onrest.jpg","+43(1)5854900","Chinese","http://www.restaurant-on.at/")
+let bioRest = new restaurants("BioFrische","Vienna","1150 Vienna","Stutterheimstraße 6","img/biorest.jpg","+43(1)9529215","Indian","http://biofrische.wien/")
 
 //events
-let catsEv = new events("Cats- the musical","Vienna","1010 Vienna","Ronacher-Seilerstätte 9","../img/catsev.jpg","Fr., 15.12.2020","20:00","120,00€")
-let gnrEv = new events("Guns ‘n Roses","Vienna","1020 Vienna","Ernst-Happel Stadion, Meiereistraße 7","../img/gnrev.jpg","Sat, 09.06.2020","19:30","95,50€")
+let catsEv = new events("Cats- the musical","Vienna","1010 Vienna","Ronacher-Seilerstätte 9","img/catsev.jpg","Fr., 15.12.2020","20:00","120,00€")
+let gnrEv = new events("Guns ‘n Roses","Vienna","1020 Vienna","Ernst-Happel Stadion, Meiereistraße 7","img/gnrev.jpg","Sat, 09.06.2020","19:30","95,50€")
 
 console.log(array)
 
@@ -162,3 +162,12 @@ for(let i in array)
 		array[i].display()
 	}
 }
+
+
+//bonus visited
+
+//not done
+
+//bonus sorted based on date time
+
+//not done

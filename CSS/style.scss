@@ -7,21 +7,38 @@
 
 body
 {
-	// background: url("../img/brick.jpg") no-repeat center center fixed; 
- //  -webkit-background-size: cover;
- //  -moz-background-size: cover;
- //  -o-background-size: cover;
- //  background-size: cover;
+	background: url("../img/back.webp") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 	
 }
 
 header
 {
-	// background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.4);
+
 }
 
-.picture
+.transpsight
 {
-	height:300px;
+	background-color: rgba(0,0,0,0.4); 
+	border-bottom: 5px solid #FFC107;
+	font-size: 130%;
+}
+
+.transprest
+{
+	background-color: rgba(0,0,0,0.4); 
+	border-bottom: 5px solid #DC3545;
+	font-size: 130%;
+}
+
+.transpeve
+{
+	background-color: rgba(0,0,0,0.4); 
+	border-bottom: 5px solid #28A745;
+	font-size: 130%;
 }
