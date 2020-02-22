@@ -133,14 +133,32 @@ class events extends locations
 //locations
 let charlesChurch = new locations("St. Charles Church","Vienna","1010 Vienna","Karlsplatz 1","img/church.jfif")
 let schPark = new locations ("Schönbrunn Park","Vienna","1130 Vienna","Maxingstraße 13b","img/schpark.jpg")
+let loctest1 = new locations ("Template1","City","0000 Vienna","Streetname 000","img/test.png")
+let loctest2 = new locations ("Template2","City","0000 Vienna","Streetname 000","img/test.png")
+let loctest3 = new locations ("Template3","City","0000 Vienna","Streetname 000","img/test.png")
+let loctest4 = new locations ("Template4","City","0000 Vienna","Streetname 000","img/test.png")
+let loctest5 = new locations ("Template5","City","0000 Vienna","Streetname 000","img/test.png")
+let loctest6 = new locations ("Template6","City","0000 Vienna","Streetname 000","img/test.png")
 
 //restaurants
 let onRest = new restaurants("ON Restaurant","Vienna","1050 Vienna","Wehrgasse 8","img/onrest.jpg","+43(1)5854900","Chinese","http://www.restaurant-on.at/")
 let bioRest = new restaurants("BioFrische","Vienna","1150 Vienna","Stutterheimstraße 6","img/biorest.jpg","+43(1)9529215","Indian","http://biofrische.wien/")
+let resttest1 = new restaurants("RestTemplate1","City","0000 Vienna","Streetname 000","img/test.png","+43(1)0000000","Type","www.website.com")
+let resttest2 = new restaurants("RestTemplate2","City","0000 Vienna","Streetname 000","img/test.png","+43(1)0000000","Type","www.website.com")
+let resttest3 = new restaurants("RestTemplate3","City","0000 Vienna","Streetname 000","img/test.png","+43(1)0000000","Type","www.website.com")
+let resttest4 = new restaurants("RestTemplate4","City","0000 Vienna","Streetname 000","img/test.png","+43(1)0000000","Type","www.website.com")
+let resttest5 = new restaurants("RestTemplate5","City","0000 Vienna","Streetname 000","img/test.png","+43(1)0000000","Type","www.website.com")
+let resttest6 = new restaurants("RestTemplate6","City","0000 Vienna","Streetname 000","img/test.png","+43(1)0000000","Type","www.website.com")
 
 //events
 let catsEv = new events("Cats- the musical","Vienna","1010 Vienna","Ronacher-Seilerstätte 9","img/catsev.jpg","Fr., 15.12.2020","20:00","120,00€")
 let gnrEv = new events("Guns ‘n Roses","Vienna","1020 Vienna","Ernst-Happel Stadion, Meiereistraße 7","img/gnrev.jpg","Sat, 09.06.2020","19:30","95,50€")
+let evetest1 = new events("EventTemplate1","City","0000 Vienna","Strettname 000","img/test.png","Day, Date","Time","TicketPrice")
+let evetest2 = new events("EventTemplate2","City","0000 Vienna","Strettname 000","img/test.png","Day, Date","Time","TicketPrice")
+let evetest3 = new events("EventTemplate3","City","0000 Vienna","Strettname 000","img/test.png","Day, Date","Time","TicketPrice")
+let evetest4 = new events("EventTemplate4","City","0000 Vienna","Strettname 000","img/test.png","Day, Date","Time","TicketPrice")
+let evetest5 = new events("EventTemplate5","City","0000 Vienna","Strettname 000","img/test.png","Day, Date","Time","TicketPrice")
+let evetest6 = new events("EventTemplate6","City","0000 Vienna","Strettname 000","img/test.png","Day, Date","Time","TicketPrice")
 
 console.log(array)
 
